@@ -1,0 +1,22 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "dating site",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RussellBrookman/Friend-Finder.git"
+  },
+  "author": "Russell Brookman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RussellBrookman/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/RussellBrookman/Friend-Finder#readme"
+}
