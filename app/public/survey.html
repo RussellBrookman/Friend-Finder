@@ -1,138 +1,319 @@
 <!Doctype>
 <html>
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<title>Geek People Meet-Survey</title>
+  <title>Geek People Meet-Survey</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- <script type="text/javascript" href= "servey.js"></script> -->
 </head>
 <body>
-	<div>
-		<h2>Survey Questions</h2>
-	</div>
-	<div class="aboutYouBox">
-		<h3 class=questionNumbers>About You</h3> 
-		<form action="/server.js">
-			Name: <br>
-			<input type="text" name="name" value= "">
-			<br>
-			Link to photo of you: <br>
-			<input type="text" value= "">
-			<br><br>
-			<h3 class=questionNumbers>Question 1</h3>
-			<br>	
-			Would you rather go to the championship of your favorite sport or go to Comicon?:
-			<select>
-				<option value="1">1, I'll never pass up a chamionship game</option>	
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5, Comicon is a great time that I would never miss</option>
-			</select>
-			<br>	
-			<h3 class=questionNumbers>Question 2</h3>
-			<br>
-			Interest in comics?:
-			<select>
-				<option value="1">1, I have no interest but might be willing to be a poser and wear dorky t-shirts if it helps me find someone on this site</option>	
-				<option value="2">2, I like the movies or TV Shows</option>
-				<option value="3">3, I follow both the movies TV shows of my favorite characters</option>
-				<option value="4">4, I read comics</option>
-				<option value="5">5, I do all of the above and collect bullshit to decorate my room with</option>
-			</select>	
-			<br>		
-			<h3 class=questionNumbers>Question 3</h3>
-			<br>
-			Would you rather?:
-			<select>
-				<option value="1">1, Go hiking</option>	
-				<option value="2">2, Play an in-door sport like go bowling or play pool</option>
-				<option value="3">3, Go to the movies</option>
-				<option value="4">4, Have a board or card game night with friends</option>
-				<option value="5">5, Curl up on the couch and have a romantic evening watching a Marathon of your favorite movie series</option>
-			</select>						
-			<h3 class=questionNumbers>Question 4</h3>
-			<br>
-			Do you like video games?:
-			<select>
-				<option value="1">1, No interest</option>	
-				<option value="2">2</option>
-				<option value="3">3, I like them but can never find the time anymore</option>
-				<option value="4">4</option>
-				<option value="5">5, I'll never stop playing video games</option>
-			</select>
-			<br>	
-			<h3 class=questionNumbers>Question 5</h3>
-			<br>
-			If I saw someone with a full superhero costume on and walking down the street I would..:
-			<select>
-				<option value="1">1, Run away</option>	
-				<option value="2">2, At best call him or her a dushe bag. At worst throw my milkshake at him.</option>
-				<option value="3">3, Complement him or her on their amazing costume</option>
-				<option value="4">4, Start a conversation with him or her and ask him where he's going, just in case you might want to go</option>
-				<option value="5">5, Drop everything, and stalk this person until he/she leads you to a comicon, comic book store event, or costume party which you will crash with the costume you just happen keep on you, just in case.</option>
-			</select>
-			<br>
-			<h3 class=questionNumbers>Question 6</h3>
-			<br>
-			What is your favorite type of video game:
-			<select>
-				<option value="1">1, I don't like video games</option>	
-				<option value="2">2, Sports and racing games</option>
-				<option value="3">3, First person shooters or fighting games</option>
-				<option value="4">4, RPG's</option>
-				<option value="5">5, An MMO of any type, that you play with thousands of strangers, that never ends</option>
-			</select>			
-			<br>
-			<h3 class=questionNumbers>Question 7</h3>
-			<br>
-			How many 80's or 90's songs can you sing most or every word too without the words on a screen?:
-			<select>
-				<option value="1">1, none</option>	
-				<option value="2">2, one to five</option>
-				<option value="3">3, siz to ten</option>
-				<option value="4">4, eleven or more</option>
-				<option value="5">5, I am a musician and am on this site so I admit that musicians can be dorks too.</option>
-			</select>			
-			<br>
-			<h3 class=questionNumbers>Question 8</h3>
-			<br>
-			It's your birthday, would you rather:
-			<select>
-				<option value="1">1, go to or play in a team sport</option>	
-				<option value="2">2, go hiking or sking</option>
-				<option value="3">3, go to sports bar but play nothing except pool or foosball</option>
-				<option value="4">4, go to a karioki bar and embarrasse yourself publicly</option>
-				<option value="5">5, dress up in full costume and go to an opening night of a hit movie</option>
-			</select>
-			<br>
-			<h3 class=questionNumbers>Question 9</h3>
-			<br>
-			After work, I plan to:
-			<select>
-				<option value="1">1, eat healthy and go to the gym</option>	
-				<option value="2">2, meet up with some friends hand have a few drinks</option>
-				<option value="3">3, bindge watch a netflix series</option>
-				<option value="4">4, go to a commic shop with something in mind that you want</option>
-				<option value="5">5, play through a video game that you have already finished</option>
-			</select>
-			<br>
-			<h3 class=questionNumbers>Question 10</h3>
-			<br>
-			When I'm online, besides checking my Email, I am usually:
-			<select>
-				<option value="1">1, on Facebook</option>	
-				<option value="2">2, watching video on Youtube or something like it</option>
-				<option value="3">3, reading or watching the news</option>
-				<option value="4">4, finding out information about comics, movies, videogames, or upcoming nerd events</option>
-				<option value="5">5, PROGRAMING, the nerdiest thing you can do</option>
-			</select>
-			<br><br>
-
-			<input type="submit" value="Submit">
-		</form>
-		<div class="results"></div>
-	</div>
+  <div class="container">
+    <h2><span class="glyphicon glyphicon-list-alt"></span> 
+      <b>Survey Questions</b>
+    </h2>
+    <hr>
+    <form>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <span class="glyphicon glyphicon-user"></span> About You
+              </h4>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <input type="text" class="form-control" id="userName" placeholder="Name (Required)">
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="text" class="form-control" id="userPhoto" placeholder="Photo (Recomended)">
+              </div>
+              <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <span class="glyphicon glyphicon-pencil"></span> For best results, answer honestly
+              </h4>
+            </div>
+            <br>
+              <div class="panel-body">
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 1</h3>
+                    <br>
+                    <p>Would you rather go to the championship of your favorite sport or go to Comicon?:</p>
+                    <div id="q1">
+                      <input type="radio" name="q1" value="1">1, I'll never pass up a chamionship game
+                      <br>
+                      <input type="radio" name="q1" value="2">2
+                      <br>
+                      <input type="radio" name="q1" value="3">3
+                      <br>
+                      <input type="radio" name="q1" value="4">4
+                      <br>
+                      <input type="radio" name="q1" value="5">5, Comicon is a great time that I would never miss
+                    </div>
+                  </div>
+                </div>
+                <br>            
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 2</h3>
+                    <br>
+                    <p>Interest in comics?:</p>
+                    <div id="q2">
+                      <input type="radio" name="q2" value="1">1, I have no interest but might be willing to be a poser and wear dorky t-shirts if it helps me find someone on this site
+                      <br>
+                      <input type="radio" name="q2" value="2">2, I like the movies or TV Shows
+                      <br>
+                      <input type="radio" name="q2" value="3">3, I follow both the movies TV shows of my favorite characters
+                      <br>
+                      <input type="radio" name="q2" value="4">4, I read comics
+                      <br>
+                      <input type="radio" name="q2" value="5">5, I do all of the above and collect bullshit to decorate my room with
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 3</h3>
+                    <br>
+                    <p>Would you rather?:</p>
+                    <div id="q3">
+                      <input type="radio" name="q3" value="1">1, Go hiking
+                      <br>
+                      <input type="radio" name="q3" value="2">2, Play an in-door sport like go bowling or play pool
+                      <br>
+                      <input type="radio" name="q3" value="3">3, Go to the movies
+                      <br>
+                      <input type="radio" name="q3" value="4">4, Have a board or card game night with friends
+                      <br>
+                      <input type="radio" name="q3" value="5">5, Curl up on the couch and have a romantic evening watching a Marathon of your favorite movie series
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 4</h3>
+                    <br>
+                    <p>Do you like video games?:</p>
+                    <div id="q4">
+                      <input type="radio" name="q4" value="1">1, No interest
+                      <br>
+                      <input type="radio" name="q4" value="2">2
+                      <br>
+                      <input type="radio" name="q4" value="3">3, I like them but can never find the time anymore
+                      <br>
+                      <input type="radio" name="q4" value="4">4
+                      <br>
+                      <input type="radio" name="q4" value="5">5, I'll never stop playing video games
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 5</h3>
+                    <br>
+                    <p>If I saw someone with a full superhero costume on and walking down the street I would..</p>
+                    <div id="q5">
+                      <input type="radio" name="q5" value="1">1, Run away
+                      <br>
+                      <input type="radio" name="q5" value="2">2, At best call him or her a dushe bag. At worst throw my milkshake at him.
+                      <br>
+                      <input type="radio" name="q5" value="3">3, Complement him or her on their amazing costume
+                      <br>
+                      <input type="radio" name="q5" value="4">4, Start a conversation with him or her and ask him where he's going, just in case you might want to go
+                      <br>
+                      <input type="radio" name="q5" value="5">5, Drop everything, and stalk this person until he/she leads you to a comicon, comic book store event, or costume party which you will crash with the costume you just happen keep on you, just in case.
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 6</h3>
+                    <br>
+                    <p>What is your favorite type of video game:</p>
+                    <div id="q6">
+                      <input type="radio" name="q6" value="1">1, Again, I don't like video games
+                      <br>
+                      <input type="radio" name="q6" value="2">2, Sports and racing games
+                      <br>
+                      <input type="radio" name="q6" value="3">3, First person shooters or fighting games
+                      <br>
+                      <input type="radio" name="q6" value="4">4, RPG's
+                      <br>
+                      <input type="radio" name="q6" value="5">5, An MMO of any type, that you play with thousands of strangers, that never ends
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 7</h3>
+                    <br>
+                    <p>How many 80's or 90's songs can you sing most or every word too without the words on a screen?:</p>
+                    <div id="q7">
+                      <input type="radio" name="q7" value="1">1, none
+                      <br>
+                      <input type="radio" name="q7" value="2">2, one to five
+                      <br>
+                      <input type="radio" name="q7" value="3">3, six to ten
+                      <br>
+                      <input type="radio" name="q7" value="4">4, eleven or more
+                      <br>
+                      <input type="radio" name="q7" value="5">5, I am a musician and am on this site so I admit that musicians can be dorks too.
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 8</h3>
+                    <br>
+                    <p>It's your birthday, would you rather:</p>
+                    <div id="q8">
+                      <input type="radio" name="q8" value="1">1, go to or play in a team sport
+                      <br>
+                      <input type="radio" name="q8" value="2">2, go hiking or sking
+                      <br>
+                      <input type="radio" name="q8" value="3">3, go to sports bar but play nothing except pool, pinball, or foosball
+                      <br>
+                      <input type="radio" name="q8" value="4">4, go to a karioki bar and embarrasse yourself publicly
+                      <br>
+                      <input type="radio" name="q8" value="5">5, dress up in full costume and go to an opening night of a hit movie
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 9</h3>
+                    <br>
+                    <p>After work, I generally plan to:</p>
+                    <div id="q9">
+                      <input type="radio" name="q9" value="1">1, eat healthy and go to the gym
+                      <br>
+                      <input type="radio" name="q9" value="2">2, meet up with some friends hand have a few drinks
+                      <br>
+                      <input type="radio" name="q9" value="3">3, bindge watch a netflix series
+                      <br>
+                      <input type="radio" name="q9" value="4">4, go to a commic shop with something in mind that you want
+                      <br>
+                      <input type="radio" name="q9" value="5">5, play through a video game that you have already finished
+                    </div>
+                  </div>
+                </div>
+                <br> 
+                <div class="row">
+                  <div>
+                    <h3 class="questionNumbers">Question 10</h3>
+                    <br>
+                    <p>When I'm online, besides checking my Email, I am usually:</p>
+                    <div id="q10">
+                      <input type="radio" name="q10" value="1">1, on Facebook
+                      <br>
+                      <input type="radio" name="q10" value="2">2, watching video on Youtube or something like it
+                      <br>
+                      <input type="radio" name="q10" value="3">3, reading or watching the news
+                      <br>
+                      <input type="radio" name="q10" value="4">4, finding out information about comics, movies, videogames, or upcoming nerd events
+                      <br>
+                      <input type="radio" name="q10" value="5">5, PROGRAMING, the nerdiest thing you can do
+                    </div>
+                  </div>
+                </div>
+                <br><br>              
+              <div class="wtfMessage">Come on.. Put in your name and answer the questions.</div>
+              <div id="resultsLocation">Your match is below!</div>
+              <button class="btn btn-primary submit" id="submit">Submit</button>           
+              </div>  
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="results">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h4>Your match and our recomended future love interest!</h4>
+      <h5 id='matchRes'></h5>
+      <h5 id='matchMessageRes'></h5>
+      <img id='matchImgRes'>
+    </div>
+    <span class="close">&times;</span>
+  </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-<script src='script.js'></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </html>
+
+
+<script>
+  $(document).ready(function() {
+  $(".wtfMessage").hide();
+  $("#resultsLocation").hide();
+  $("#results").hide();
+});
+
+$('#submit').on('click', function(event) {
+  event.preventDefault();
+  if(($('#userName').val() === "")) {
+    $('.wtfMessage').show();
+    return;
+  } else {
+    if ( !($("input[name='q1']:checked").val()) ||
+      !($("input[name='q2']:checked").val()) ||
+      !($("input[name='q3']:checked").val()) ||
+      !($("input[name='q4']:checked").val()) ||
+      !($("input[name='q5']:checked").val()) ||
+      !($("input[name='q6']:checked").val()) ||
+      !($("input[name='q7']:checked").val()) ||
+      !($("input[name='q8']:checked").val()) ||
+      !($("input[name='q9']:checked").val()) ||
+      !($("input[name='q10']:checked").val()) ) {
+        $('#wtfMessage').show();
+        return;
+      } else {
+        $('#submit').hide();
+        var userInput = {
+          name: $('#userName').val(),
+          photo: $('#userPhoto').val(),
+          scores:[
+            $("input[name='q1']:checked").val(),
+            $("input[name='q2']:checked").val(),
+            $("input[name='q3']:checked").val(),
+            $("input[name='q4']:checked").val(),
+            $("input[name='q5']:checked").val(),
+            $("input[name='q6']:checked").val(),
+            $("input[name='q7']:checked").val(),
+            $("input[name='q8']:checked").val(),
+            $("input[name='q9']:checked").val(),
+            $("input[name='q10']:checked").val()
+          ]
+        };
+      $.post('/api/friends', userInput).done(function (data) {
+        $('#matchRes').html(data.matchName);
+        $('#matchMessageRes').html(data.matchMessage);
+        $("#matchImgRes").attr("src", data.matchImg);
+        $("#resultsLocation").show();
+        $("#results").show();
+      });
+    }
+  }
+});
+$('.close').on('click', function(e){
+  $("#results").hide();
+});
+
+</script>
