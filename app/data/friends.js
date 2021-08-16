@@ -52,8 +52,8 @@ var friends = [
   },
   {
     name: 'Comic Book Guy',
-    message: "You're ideal mate is a total freaking looser. Excelent work comming to our site. You may be a virgin and this site will be ideal for correcting that situration if you're truely desprate. We practically guarantee you're ideal mate is a virgin and is anxiously awaiting your company! Keep in mind this site will improve your life, but not the human race!",
-    photo: 'http://15149-presscdn-0-14.pagely.netdna-cdn.com/wp-content/uploads/2014/09/Comic-Book-Guy.png',
+    message: "You're ideal mate is a total freaking looser. Excelent work comming to our site. You may be a virgin and this site will be ideal for correcting that situation if you're truely desprate. We practically guarantee you're ideal mate is a virgin and is anxiously awaiting your company! Keep in mind this site will improve your life, but not the human race!",
+    photo: 'https://www.syfy.com/sites/syfy/files/styles/1200x680/public/syfywire_blog_post/2018/09/simpsons.jpg',
     scores: [
       "5",
       "5",
